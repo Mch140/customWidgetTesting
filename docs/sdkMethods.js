@@ -1,4 +1,5 @@
 console.log(">>>>>>>>>> inside sdkMethod.js");
+pathToData = "chatTranscript.lines";
 
 var notificationHandler = function(data) {
     // Do something with the notifications
@@ -70,5 +71,5 @@ lpTag.agentSDK.onNotify(notificationHandlerOnNotify);
 console.log(">>>>>>>>>> after OnNotify");
 lpTag.agentSDK.bind(pathToData, updateCallback, notifyWhenDone);
 
-
+console.log(">>>>>>>>>> test1");
 
